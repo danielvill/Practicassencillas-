@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambio de colores </title>
+
+    <style>
+     .centro{
+        text-align:center;
+        color:white;
+
+     }
+     .padre {
+        
+        font-size: 16px;
+        display: center;
+  margin: 0.5; 
+  padding: 0.5;
+  border: 1px ;
+  /* IMPORTANTE */
+  text-align: center;
+}
+.boton1{
+    color: white;
+    background-color:red;
+}
+.boton2{
+    color: white;
+    background-color:blue;
+}
+
+.boton3{
+    color: white;
+    background-color:green;
+
+}
+.boton4{
+    color: white;
+    background-color:pink;
+}
+.boton5{
+    color: white;
+    background-color:purple;
+
+}
+    </style>
+
+</head>
+<body>
+    <h1  class="centro">Cambio de colores con css y javascrit puro</h1>
+    
+    <div class="padre">
+      
+    <button class="boton1" onclick="cambiocolor()" >
+        Red <b  >botón</b>
+        <br>
+        <br>
+    </div>
+       
+    <div class="padre">
+    <button  class="boton2"  onclick ="azul()" >
+            Blue <b  >botón</b>
+            <br>
+            <br>
+        </div>
+            
+        <div class="padre">
+
+        <button class="boton3"   onclick ="green()" >
+            
+                Green <b  >botón</b>
+                <br>
+                <br>
+
+            </div>
+
+            <div class="padre">
+                <button class="boton4" onclick ="pink()">
+                    Pink <b  >botón</b>
+                    <br>
+                    <br>
+                </div>
+                <div class="padre">
+
+                <button  class="boton5" onclick ="purple()">
+                        Purple <b  >botón</b>
+                        <br>
+                        <br>
+                </div>
+
+
+        <script src="botonescolores.js" ></script>        
+
+</body>
+</html>
